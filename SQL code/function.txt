@@ -1,0 +1,14 @@
+delimiter $$
+create function check_user_inBorrows(mem_id int)
+returns int 
+DETERMINISTIC
+BEGIN
+declare mem_check int default 0;
+set mem_check = (select m_id from borrows where m_id=mem_id);
+if(mem_check != 0) then 
+return 1;
+else 
+return 0;
+end if;
+END $$
+

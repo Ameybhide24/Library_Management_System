@@ -1,0 +1,17 @@
+delimiter $$
+create procedure calc_penalty(IN mem_id int)
+BEGIN
+declare r_date date;
+declare diff_days int;
+set r_date = (select return_date from borrows where m_id=mem_id);
+set diff_days = DATEDIFF(curdate(),r_date);
+if(diff_days > 0) then
+UPDATE borrows
+set penalty=diff_days*10
+WHERE m_id=mem_id;
+end if;
+END $$
+
+
+
+

@@ -1,0 +1,7 @@
+delimiter $$
+create trigger history
+after delete on borrows
+for each row
+BEGIN
+insert into history values(OLD.m_id,OLD.b_id,OLD.borrow_date,curdate());
+END $$

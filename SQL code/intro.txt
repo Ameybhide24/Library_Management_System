@@ -1,0 +1,33 @@
+The topic for our mini project is library management system.
+The main purpose of this system is to provide automation to the
+library.This system will be used for monitoring and controlling
+transactions in a library.We have done the backend programming 
+using java and have used the MySQL database.
+For the frontend part,we have used java swing.
+
+We have taken two types of user for this system.the root user
+and lib_member user.When a librarian logins from his account,
+a connection with root user will be established and when a 
+Member logins from his account a connection with lib_member
+will be established.The root user will have access to all
+the database while we have granted only necessary privileges
+to the lib_member user using GRANT command.
+ 
+After logging into his account,Member
+will be able to search the record of books and retrieve the 
+details of books available in the library.
+The system will be able to issue the
+books to the members and maintain their records and can also
+check which books are issued by which members.Also,the 
+system maintains the late penalty of members who returns the 
+issued books after the due date.Also the librarian will be able
+to see the history of each and every transaction.
+If the member doesn't have an account he will be able to 
+register for his account.
+
+We have used a function to check if a user is existing in a
+table or not,procedure to calculate penalty and a trigger to
+store each and every transaction in the history table.
+Now rajat will explain the trigger in detail. 
+ 
+ 

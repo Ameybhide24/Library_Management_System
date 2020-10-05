@@ -1,0 +1,137 @@
+insert into librarian values(1,'kiran','kiran123','kiran@gmail.com','9876543218','laxmi Rd','Pune','411021');
+insert into librarian values(2,'Chandler Bing','cb123','chandler@gmail.com','6579234211','Yemen Rd','Yemen','569004');
+
+insert into librarian values(3,'Joey Tribbiani','howyoudoing','kenadams@gmail.com','6556234211','Bajirao Rd','New York','890675');
+
+insert into librarian values(4,'Jon Snow','iknownothing','myqueen@gmail.com','9874563218','Tilak Rd','Winerfell','539504');
+
+
+
+insert into member values(1,'sam','sam@gmail.com','sam123','8761893214','karve Rd','Pune','123455');
+
+insert into member values(2,'Ajinkya','ajinkya@gmail.com','ajinkya123','4567893214','karve Rd','Pune','123455');
+
+insert into member values(3,'Aniruddha','aniruddha@gmail.com','aniruddha123','4564593214','Paud Rd','Pune','411496');
+
+insert into member values(4,'Sherlock','sherlock@gmail.com','sherlocked123','7267593214','Bakers Street','Pune','411030');
+
+insert into member values(5,'Parth','parth@gmail.com','parth123','4567925432','Koregaon Park','Pune','411546');
+
+insert into member values(6,'Virat','virat@gmail.com','virat123','9864597251','Sinhgad Rd','Pune','411056');
+
+insert into member values(7,'Anushka','anushka@gmail.com','anushka123','9864363684','Karolbaug','Pune','411596');
+
+insert into member values(8,'Rhea','rhra@gmail.com','sushant123','9864563214','Kelkar Rd','Pune','456325');
+
+insert into member values(9,'Prabhas','prabhas@gmail.com','prabhas123','876455674','SantaCruz','Pune','411023');
+
+insert into member values(10,'Shraddha','shraddha@gmail.com','shraddha123','9665044488','Kakade Rd','Pune','411011');
+
+insert into member values(11,'Regina Philange','phoebe@gmail.com','philange123','9730879304','Times square','Pune','411758');
+
+insert into member values(12,'Monica','monica@gmail.com','monica123','9135679304','Cental Perk','Pune','411758');
+
+insert into member values(13,'Jennifer','jennifer@gmail.com','jennifer123','9149879304','Cental Perk','Pune','411758');
+
+insert into member values(14,'Arya','noone@gmail.com','noone','9149875786','Cental Perk','Pune','411758');
+
+insert into member values(15,'Sansa','sansa@gmail.com','sansa123','9147899304','Downing St','Pune','411758');
+
+insert into author values(7,'G.R.R.Martin','grrmartin@gmail.com');
+insert into author values(2,'Amish Tripathi','amish@gmail');
+insert into author values(3,'Dan Brown','dan@gmail.com');
+insert into author values(4,'Paulo Coelho','paulo@gmail.com');
+insert into author values(5,'Dan Brown','dan@gmail.com');
+insert into author values(6,'Agatha Christie','agatha@gmail.com');
+insert into author values(1,'J.K.Rowlings','jkrowlings@gmail.com');
+insert into author values(8,'J.R.R.Tolkien','jrr@gmail.com');
+
+insert into publisher values(1,'Rajdeep','rajdeep@gmail.com');
+insert into publisher values(2,'Bloomsbury Publishing','blooms@gmail.com');
+insert into publisher values(3,'Arihant','arihant@gmail.com');
+insert into publisher values(4,'HarperCollins Publications','harper@gmail.com');
+insert into publisher values(5,'Mackintosh','makintosh@gmail.com');
+insert into publisher values(6,'Rupa publishing','rupa@gmail.com');
+
+
+
+insert into books values(1,'A Song of Ice and Fire','Political Fiction',17,1,7,2);
+insert into books values(2,'Lord of the Rings','Fiction',12,2,8,1);
+insert into books values(3,'Harry Potter 1','Fiction',15,1,1,1);
+insert into books values(4,'Alchemist','Philosophy',3,1,4,6);
+insert into books values(5,'Inferno','Science Fiction',6,1,5,5);
+insert into books values(6,'Murder on the Orient Express','Crime-Thriller',3,1,6,2);
+insert into books values(7,'A Secret of Nagas','Fiction',3,1,2,1);
+insert into books values(8,'Immortals of Meluha','Fiction',3,1,2,1);
+insert into books values(9,'Oath of the Vayuputras','Fiction',3,1,2,1);
+insert into books values(10,'Scion of Ikshavaku','Fiction',3,1,2,1);
+insert into books values(11,'Eleven Minutes','Philosophy',3,1,4,6);
+insert into books values(12,'Harry Potter 2','Fiction',1,3,1,1);
+insert into books values(13,'Harry Potter 3','Fiction',1,3,1,1);
+insert into books values(14,'Harry Potter','Fiction',1,3,1,1);
+insert into books values(15,'Angels and Demons','Historic Fiction',6,2,5,5);
+insert into books values(16,'Origin','Fiction',6,2,5,5);
+insert into books values(17,'The Winds of Winter','Fiction',17,1,7,2);
+insert into books values(18,'A Dance of Dragons','Fiction',17,1,7,2);
+insert into books values(19,'A Storm of Swords','Fiction',17,1,7,2);
+insert into books values(20,'A Feast for Crows','Fiction',17,1,7,2);
+insert into books values(21,'A Dream of Spring','Fiction',17,1,7,2);
+insert into books values(22,'A Clash of Kings','Fiction',17,1,7,2);
+insert into books values(23,'The Zahir','Philosophy',17,1,4,6);
+insert into books values(24,'The Deception Point','Fiction',17,1,5,5);
+insert into books values(25,'The Hobbit','Fiction',17,1,8,1);
+insert into books values(26,'The Silmarion','Fiction',17,1,8,1);
+
+
+insert into borrows values(1,1,'2020-08-21','2020-09-05',0);
+insert into borrows values(2,2,'2020-08-18','2020-09-02',0);
+insert into borrows values(3,3,'2020-08-20','2020-09-04',0);
+insert into borrows values(4,4,'2020-08-22','2020-09-06',0);
+insert into borrows values(5,5,'2020-08-15','2020-09-01',0);
+insert into borrows values(6,6,'2020-08-13','2020-08-28',0);
+insert into borrows values(7,7,'2020-08-21','2020-09-05',0);
+insert into borrows values(8,8,'2020-08-21','2020-09-05',0);
+insert into borrows values(9,9,'2020-08-28','2020-09-13',0);
+insert into borrows values(10,10,'2020-09-01','2020-09-15',0);
+insert into borrows values(11,11,'2020-09-05','2020-09-19',0);
+insert into borrows values(12,12,'2020-09-06','2020-09-20',0);
+insert into borrows values(13,13,'2020-08-05','2020-08-20',0);
+insert into borrows values(14,14,'2020-09-07','2020-09-21',0);
+insert into borrows values(15,15,'2020-09-08','2020-09-22',0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
